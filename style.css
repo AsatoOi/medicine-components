@@ -3,9 +3,47 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   background-color: black;
 }
+
+
+
 body {
-  background-color: #ffffff;
+  width: 293px;
+  height: 633px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  background-color: #FFFF;
+}
+
+#detail {
+  background-color: #007AFF;
+  color: #FFFF;
+  width: 100%;
+  padding: 7em;
+  border: none;
+  border-radius: 19px;
+}
+
+#homeback1 {
+  background-color: #FFFF;
+  color: #007AFF;
+  width: 100%;
+  margin: 200em;
+  padding: 7px;
+  border-radius: 100px;
+}
+
+#homeback2 {
+  background-color: #007AFF;
+  color: #FFFF;
+  width: 200em;
+  margin: 200em;
+  padding: 100em;
+  border-radius: 100em 200em 300em 200em;
 }
